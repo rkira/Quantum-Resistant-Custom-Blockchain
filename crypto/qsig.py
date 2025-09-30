@@ -22,4 +22,5 @@ class QuantumSigner:
             'public_key': self.public_key.hex(),  
             'address': address,  
             'nonce': self.nonce  
+
         }  
