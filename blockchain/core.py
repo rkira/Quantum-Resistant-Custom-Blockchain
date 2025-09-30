@@ -45,4 +45,5 @@ class QuantumBlockchain:
 
     @staticmethod  
     def hash_block(block: dict) -> str:  
+
         return hashlib.sha3_512(json.dumps(block, sort_keys=True).encode()).hexdigest()  
