@@ -45,7 +45,8 @@ external libraries:
 To start a local node:  
 $ python3 node/server.py
 
-This will start the blockchain network
+This will start the blockchain network.
+For Example on: `http://localhost:5000/`
 
 ---
 
@@ -71,9 +72,10 @@ This will start the blockchain network
 
 ## Important Information
 
-This is a prototype-level implementation,which means:
+This is a prototype-level implementation not for production use, as:
 
 -The “address” derivation is custom (not a standard like Ethereum/BTC).
 -There’s no persistence (keys vanish if you restart).
 -Transaction format is simplified (no fee, gas, etc).
 -Validation (verify or signature verification) isn’t included.
+
