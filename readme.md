@@ -1,4 +1,4 @@
-This project is a **Post-Quantum Cryptography (PQC) blockchain prototype** implemented in Python. It includes a blockchain module, quantum-safe signature schemes, and a basic node server for testing networked interactions.
+<img width="432" height="417" alt="image" src="https://github.com/user-attachments/assets/a86b601c-4e04-4038-91c0-6e3747d560a2" />This project is a **Post-Quantum Cryptography (PQC) blockchain prototype** implemented in Python. It includes a blockchain module, quantum-safe signature schemes, and a basic node server for testing networked interactions.
 
 
 external libraries:  
@@ -52,7 +52,9 @@ For Example on: `http://localhost:5000/`
 
 ## Usage
 
-- Provides a simple form to fill sender,receiver and amount(same as a crypto wallet).After filling in the details once submit add transaction to pending transactions
+- Provides a simple form to fill sender,receiver and amount(same as a crypto wallet).After filling in the details once submit add transaction to pending transactions.
+  <img width="432" height="417" alt="image" src="https://github.com/user-attachments/assets/c9e1bf1e-ff61-424b-a679-98ba262f408b" />
+
 
 - Pending transaction can be mined with `curl http://localhost:5000/mine` in terminal or just refresh `http://localhost:5000/mine` in browser.
 
@@ -78,4 +80,5 @@ This is a prototype-level implementation not for production use, as:
 -There’s no persistence (keys vanish if you restart).
 -Transaction format is simplified (no fee, gas, etc).
 -Validation (verify or signature verification) isn’t included.
+
 
